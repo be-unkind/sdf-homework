@@ -1,0 +1,232 @@
+[INFO] Trainer: ngp | 2024-01-05_15-32-55 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-35-45 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-37-08 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-37-41 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-38-48 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-42-49 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-44-17 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-47-27 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+[INFO] Trainer: ngp | 2024-01-05_15-48-32 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+==> Finished Epoch 1.
+++> Evaluate at epoch 1 ...
+++> Average F1 score: 0.43183315781998305.
+++> Average f1 for all passed epochs: [0.43183315781998305]
+++> Evaluate epoch 1 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_1.ply
+==> Finished saving mesh.
+[INFO] New best result: None --> 0.19619795723867628
+==> Start Training Epoch 2, lr=0.000100 ...
+==> Finished Epoch 2.
+++> Evaluate at epoch 2 ...
+++> Average F1 score: 0.43165182549382247.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247]
+++> Evaluate epoch 2 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_2.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.19619795723867628 --> 0.1254246246756703
+==> Start Training Epoch 3, lr=0.000100 ...
+==> Finished Epoch 3.
+++> Evaluate at epoch 3 ...
+++> Average F1 score: 0.4323509795775813.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813]
+++> Evaluate epoch 3 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_3.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.1254246246756703 --> 0.11452510580384376
+==> Start Training Epoch 4, lr=0.000100 ...
+==> Finished Epoch 4.
+++> Evaluate at epoch 4 ...
+++> Average F1 score: 0.43236277889467717.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717]
+++> Evaluate epoch 4 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_4.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.11452510580384376 --> 0.1064302214679233
+==> Start Training Epoch 5, lr=0.000100 ...
+==> Finished Epoch 5.
+++> Evaluate at epoch 5 ...
+++> Average F1 score: 0.43260807892555847.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847]
+++> Evaluate epoch 5 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_5.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.1064302214679233 --> 0.09621063562700587
+==> Start Training Epoch 6, lr=0.000100 ...
+==> Finished Epoch 6.
+++> Evaluate at epoch 6 ...
+++> Average F1 score: 0.4326509265720926.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926]
+++> Evaluate epoch 6 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_6.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.09621063562700587 --> 0.08254483031454402
+==> Start Training Epoch 7, lr=0.000100 ...
+==> Finished Epoch 7.
+++> Evaluate at epoch 7 ...
+++> Average F1 score: 0.4333663721945015.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015]
+++> Evaluate epoch 7 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_7.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.08254483031454402 --> 0.068621459071808
+==> Start Training Epoch 8, lr=0.000100 ...
+==> Finished Epoch 8.
+++> Evaluate at epoch 8 ...
+++> Average F1 score: 0.4325530608239645.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645]
+++> Evaluate epoch 8 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_8.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.068621459071808 --> 0.05412046875502538
+==> Start Training Epoch 9, lr=0.000100 ...
+==> Finished Epoch 9.
+++> Evaluate at epoch 9 ...
+++> Average F1 score: 0.43233235835339673.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673]
+++> Evaluate epoch 9 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_9.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.05412046875502538 --> 0.04130416965911256
+==> Start Training Epoch 10, lr=0.000100 ...
+==> Finished Epoch 10.
+++> Evaluate at epoch 10 ...
+++> Average F1 score: 0.43317353294061745.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745]
+++> Evaluate epoch 10 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_10.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.04130416965911256 --> 0.03040974444550258
+==> Start Training Epoch 11, lr=0.000010 ...
+==> Finished Epoch 11.
+++> Evaluate at epoch 11 ...
+++> Average F1 score: 0.43291904716013724.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724]
+++> Evaluate epoch 11 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_11.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.03040974444550258 --> 0.027585956868459046
+==> Start Training Epoch 12, lr=0.000010 ...
+==> Finished Epoch 12.
+++> Evaluate at epoch 12 ...
+++> Average F1 score: 0.4329940456982296.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296]
+++> Evaluate epoch 12 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_12.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.027585956868459046 --> 0.026716516404265672
+==> Start Training Epoch 13, lr=0.000010 ...
+==> Finished Epoch 13.
+++> Evaluate at epoch 13 ...
+++> Average F1 score: 0.4328602387210118.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118]
+++> Evaluate epoch 13 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_13.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.026716516404265672 --> 0.02586353607694014
+==> Start Training Epoch 14, lr=0.000010 ...
+==> Finished Epoch 14.
+++> Evaluate at epoch 14 ...
+++> Average F1 score: 0.43318662090878934.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934]
+++> Evaluate epoch 14 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_14.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.02586353607694014 --> 0.024911835480984135
+==> Start Training Epoch 15, lr=0.000010 ...
+==> Finished Epoch 15.
+++> Evaluate at epoch 15 ...
+++> Average F1 score: 0.43322588796410466.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466]
+++> Evaluate epoch 15 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_15.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.024911835480984135 --> 0.02381185484085659
+==> Start Training Epoch 16, lr=0.000010 ...
+==> Finished Epoch 16.
+++> Evaluate at epoch 16 ...
+++> Average F1 score: 0.4328235575899149.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466, 0.4328235575899149]
+++> Evaluate epoch 16 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_16.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.02381185484085659 --> 0.023050328243249155
+==> Start Training Epoch 17, lr=0.000010 ...
+==> Finished Epoch 17.
+++> Evaluate at epoch 17 ...
+++> Average F1 score: 0.4329346735169539.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466, 0.4328235575899149, 0.4329346735169539]
+++> Evaluate epoch 17 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_17.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.023050328243249155 --> 0.022020332290060382
+==> Start Training Epoch 18, lr=0.000010 ...
+==> Finished Epoch 18.
+++> Evaluate at epoch 18 ...
+++> Average F1 score: 0.43304987327490263.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466, 0.4328235575899149, 0.4329346735169539, 0.43304987327490263]
+++> Evaluate epoch 18 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_18.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.022020332290060382 --> 0.021350077435848117
+==> Start Training Epoch 19, lr=0.000010 ...
+==> Finished Epoch 19.
+++> Evaluate at epoch 19 ...
+++> Average F1 score: 0.4328019428194514.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466, 0.4328235575899149, 0.4329346735169539, 0.43304987327490263, 0.4328019428194514]
+++> Evaluate epoch 19 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_19.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.021350077435848117 --> 0.020371295198153158
+==> Start Training Epoch 20, lr=0.000010 ...
+==> Finished Epoch 20.
+++> Evaluate at epoch 20 ...
+++> Average F1 score: 0.43309882734827365.
+++> Average f1 for all passed epochs: [0.43183315781998305, 0.43165182549382247, 0.4323509795775813, 0.43236277889467717, 0.43260807892555847, 0.4326509265720926, 0.4333663721945015, 0.4325530608239645, 0.43233235835339673, 0.43317353294061745, 0.43291904716013724, 0.4329940456982296, 0.4328602387210118, 0.43318662090878934, 0.43322588796410466, 0.4328235575899149, 0.4329346735169539, 0.43304987327490263, 0.4328019428194514, 0.43309882734827365]
+++> Evaluate epoch 20 Finished.
+==> Saving mesh to obj_2_sdf/validation/ngp_20.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.020371295198153158 --> 0.019815575215025666
+==> Saving mesh to obj_2_sdf/results/output.ply
+==> Finished saving mesh.
+[INFO] Trainer: ngp | 2024-01-05_16-25-58 | cuda:0 | fp32 | obj_2_sdf
+[INFO] #parameters: 12245936
+[INFO] Loading best checkpoint ...
+[INFO] loaded model.
+==> Saving mesh to obj_2_sdf/results/output.ply
+==> Finished saving mesh.

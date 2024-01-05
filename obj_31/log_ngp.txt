@@ -1,0 +1,186 @@
+[INFO] Trainer: ngp | 2024-01-05_17-39-31 | cuda:0 | fp16 | obj_31
+[INFO] #parameters: 12245936
+[INFO] Loading latest checkpoint ...
+[WARN] No checkpoint found, model randomly initialized.
+==> Start Training Epoch 1, lr=0.000100 ...
+==> Finished Epoch 1.
+++> Evaluate at epoch 1 ...
+++> Average F1 score: 0.4349516724078863.
+++> Average f1 for all passed epochs: [0.4349516724078863]
+++> Evaluate epoch 1 Finished.
+==> Saving mesh to obj_31/validation/ngp_1.ply
+==> Finished saving mesh.
+[INFO] New best result: None --> 0.2472346170821963
+==> Start Training Epoch 2, lr=0.000100 ...
+==> Finished Epoch 2.
+++> Evaluate at epoch 2 ...
+++> Average F1 score: 0.43326479831086956.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956]
+++> Evaluate epoch 2 Finished.
+==> Saving mesh to obj_31/validation/ngp_2.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.2472346170821963 --> 0.18276621351045294
+==> Start Training Epoch 3, lr=0.000100 ...
+==> Finished Epoch 3.
+++> Evaluate at epoch 3 ...
+++> Average F1 score: 0.4340984758717434.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434]
+++> Evaluate epoch 3 Finished.
+==> Saving mesh to obj_31/validation/ngp_3.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.18276621351045294 --> 0.1610055091452869
+==> Start Training Epoch 4, lr=0.000100 ...
+==> Finished Epoch 4.
+++> Evaluate at epoch 4 ...
+++> Average F1 score: 0.43428025352626837.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837]
+++> Evaluate epoch 4 Finished.
+==> Saving mesh to obj_31/validation/ngp_4.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.1610055091452869 --> 0.14530070634488915
+==> Start Training Epoch 5, lr=0.000100 ...
+==> Finished Epoch 5.
+++> Evaluate at epoch 5 ...
+++> Average F1 score: 0.4344329004086944.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944]
+++> Evaluate epoch 5 Finished.
+==> Saving mesh to obj_31/validation/ngp_5.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.14530070634488915 --> 0.12966548906582953
+==> Start Training Epoch 6, lr=0.000100 ...
+==> Finished Epoch 6.
+++> Evaluate at epoch 6 ...
+++> Average F1 score: 0.43469108759050096.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096]
+++> Evaluate epoch 6 Finished.
+==> Saving mesh to obj_31/validation/ngp_6.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.12966548906582953 --> 0.11219583021402352
+==> Start Training Epoch 7, lr=0.000100 ...
+==> Finished Epoch 7.
+++> Evaluate at epoch 7 ...
+++> Average F1 score: 0.4345563119278464.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464]
+++> Evaluate epoch 7 Finished.
+==> Saving mesh to obj_31/validation/ngp_7.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.11219583021402352 --> 0.09367376301948926
+==> Start Training Epoch 8, lr=0.000100 ...
+==> Finished Epoch 8.
+++> Evaluate at epoch 8 ...
+++> Average F1 score: 0.434403218999432.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432]
+++> Evaluate epoch 8 Finished.
+==> Saving mesh to obj_31/validation/ngp_8.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.09367376301948926 --> 0.07514712588630384
+==> Start Training Epoch 9, lr=0.000100 ...
+==> Finished Epoch 9.
+++> Evaluate at epoch 9 ...
+++> Average F1 score: 0.4344281741381077.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077]
+++> Evaluate epoch 9 Finished.
+==> Saving mesh to obj_31/validation/ngp_9.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.07514712588630384 --> 0.05810525816396789
+==> Start Training Epoch 10, lr=0.000100 ...
+==> Finished Epoch 10.
+++> Evaluate at epoch 10 ...
+++> Average F1 score: 0.4339712215421887.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887]
+++> Evaluate epoch 10 Finished.
+==> Saving mesh to obj_31/validation/ngp_10.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.05810525816396789 --> 0.0454583086557678
+==> Start Training Epoch 11, lr=0.000010 ...
+==> Finished Epoch 11.
+++> Evaluate at epoch 11 ...
+++> Average F1 score: 0.434882701371709.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709]
+++> Evaluate epoch 11 Finished.
+==> Saving mesh to obj_31/validation/ngp_11.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.0454583086557678 --> 0.042306387785809904
+==> Start Training Epoch 12, lr=0.000010 ...
+==> Finished Epoch 12.
+++> Evaluate at epoch 12 ...
+++> Average F1 score: 0.4346548411041591.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591]
+++> Evaluate epoch 12 Finished.
+==> Saving mesh to obj_31/validation/ngp_12.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.042306387785809904 --> 0.041003945451196025
+==> Start Training Epoch 13, lr=0.000010 ...
+==> Finished Epoch 13.
+++> Evaluate at epoch 13 ...
+++> Average F1 score: 0.4350531430501721.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721]
+++> Evaluate epoch 13 Finished.
+==> Saving mesh to obj_31/validation/ngp_13.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.041003945451196025 --> 0.03989460210296886
+==> Start Training Epoch 14, lr=0.000010 ...
+==> Finished Epoch 14.
+++> Evaluate at epoch 14 ...
+++> Average F1 score: 0.4348376082341307.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307]
+++> Evaluate epoch 14 Finished.
+==> Saving mesh to obj_31/validation/ngp_14.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.03989460210296886 --> 0.038645331275474176
+==> Start Training Epoch 15, lr=0.000010 ...
+==> Finished Epoch 15.
+++> Evaluate at epoch 15 ...
+++> Average F1 score: 0.43510537171605285.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285]
+++> Evaluate epoch 15 Finished.
+==> Saving mesh to obj_31/validation/ngp_15.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.038645331275474176 --> 0.03783559877709279
+==> Start Training Epoch 16, lr=0.000010 ...
+==> Finished Epoch 16.
+++> Evaluate at epoch 16 ...
+++> Average F1 score: 0.4347635706067281.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285, 0.4347635706067281]
+++> Evaluate epoch 16 Finished.
+==> Saving mesh to obj_31/validation/ngp_16.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.03783559877709279 --> 0.03683841591159466
+==> Start Training Epoch 17, lr=0.000010 ...
+==> Finished Epoch 17.
+++> Evaluate at epoch 17 ...
+++> Average F1 score: 0.4358636315622086.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285, 0.4347635706067281, 0.4358636315622086]
+++> Evaluate epoch 17 Finished.
+==> Saving mesh to obj_31/validation/ngp_17.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.03683841591159466 --> 0.035935172492769826
+==> Start Training Epoch 18, lr=0.000010 ...
+==> Finished Epoch 18.
+++> Evaluate at epoch 18 ...
+++> Average F1 score: 0.43433362553933924.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285, 0.4347635706067281, 0.4358636315622086, 0.43433362553933924]
+++> Evaluate epoch 18 Finished.
+==> Saving mesh to obj_31/validation/ngp_18.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.035935172492769826 --> 0.03503493681279726
+==> Start Training Epoch 19, lr=0.000010 ...
+==> Finished Epoch 19.
+++> Evaluate at epoch 19 ...
+++> Average F1 score: 0.43548575387408145.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285, 0.4347635706067281, 0.4358636315622086, 0.43433362553933924, 0.43548575387408145]
+++> Evaluate epoch 19 Finished.
+==> Saving mesh to obj_31/validation/ngp_19.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.03503493681279726 --> 0.034173537380399154
+==> Start Training Epoch 20, lr=0.000010 ...
+==> Finished Epoch 20.
+++> Evaluate at epoch 20 ...
+++> Average F1 score: 0.4348869276719089.
+++> Average f1 for all passed epochs: [0.4349516724078863, 0.43326479831086956, 0.4340984758717434, 0.43428025352626837, 0.4344329004086944, 0.43469108759050096, 0.4345563119278464, 0.434403218999432, 0.4344281741381077, 0.4339712215421887, 0.434882701371709, 0.4346548411041591, 0.4350531430501721, 0.4348376082341307, 0.43510537171605285, 0.4347635706067281, 0.4358636315622086, 0.43433362553933924, 0.43548575387408145, 0.4348869276719089]
+++> Evaluate epoch 20 Finished.
+==> Saving mesh to obj_31/validation/ngp_20.ply
+==> Finished saving mesh.
+[INFO] New best result: 0.034173537380399154 --> 0.0335298887438035
+==> Saving mesh to obj_31/results/output.ply
+==> Finished saving mesh.
